@@ -1,0 +1,17 @@
+{
+  request: {
+    path: '/counter',
+    method: 'GET',
+  },
+  response: {
+    body: {
+      results: {
+        value: '{:counter}',
+      }
+    },
+    values: {
+      counter: 5,
+    }
+  }
+}
+

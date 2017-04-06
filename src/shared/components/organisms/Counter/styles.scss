@@ -1,0 +1,56 @@
+.root {
+}
+
+.buttonItems {
+  display: table;
+  width: 100%;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 2;
+  border: 2px solid skyblue;
+  border-radius: 3px;
+}
+
+.buttonItems-item:not(:last-child) {
+  border-right: 1px solid #fff;
+}
+
+.buttonItems-item {
+  display: table-cell;
+  width: 33%;
+  cursor: pointer;
+
+  &:hover {
+    color: #fff;
+  }
+}
+
+.buttonItems-item_normal {
+  background: skyblue;
+
+  &:hover {
+    background: deepskyblue;
+  }
+}
+
+.buttonItems-item_reset {
+  background: #aaa;
+
+  &:hover {
+    background: #999;
+  }
+}
+
+.result {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.result_minus {
+  color: red;
+}
+
+.result_plus {
+  color: darkblue;
+}

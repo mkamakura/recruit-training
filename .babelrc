@@ -1,0 +1,17 @@
+{
+  "presets": [
+    "es2015-node4",
+    "react"
+  ],
+  "plugins": [
+    "syntax-trailing-function-commas",
+    "transform-object-rest-spread"
+  ],
+  "env": {
+    "development": {
+      "presets": [
+        "power-assert",
+      ]
+    }
+  }
+}
